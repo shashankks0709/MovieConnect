@@ -3,6 +3,11 @@
 MovieConnect is a movie recommendation system developed using the PALM2 Large Language Model (LLM) and deployed using Streamlit. 
 This innovative system leverages advanced machine learning techniques to analyze user preferences and historical viewing data, delivering personalized movie recommendations.
 
+## Data sets
+tmdb_5000_credits.csv : https://drive.google.com/file/d/1C7aTg8tU9KHMVm5yIA0Gn3nJ4LsdpGMI/view?usp=sharing
+
+tmdb_5000_movies.csv : https://drive.google.com/file/d/14stHfhXpZ8dBQgX4JWCcrbrhbpD1d-ym/view?usp=sharing
+
 ## Development Process
 Using PALM2 LLM
 Model Selection: The project utilizes the PALM2 LLM for its robust natural language processing capabilities.
