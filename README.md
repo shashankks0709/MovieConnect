@@ -29,6 +29,8 @@ Run the command: streamlit run app.py.
 
 ## Future Improvements
 Expanding the dataset for a broader range of recommendations.
+
 Extending the application to mobile devices for wider reach and convenience.
+
 Exploring other LLMs to enhance accuracy and efficiency.
 
