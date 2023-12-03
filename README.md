@@ -13,6 +13,7 @@ Recommendation Logic: The system applies collaborative filtering or content-base
 
 ## User Interface with Streamlit
 Streamlit Integration: The user interface is built and managed using Streamlit, ensuring a user-friendly experience.
+
 Interactive Features: The application allows users to input their preferences and receive recommendations in real-time.
 ## Deployment
 The MovieConnect system is deployed using Streamlit, making it accessible as a web application. This deployment strategy ensures ease of access and use, catering to a broad audience.
