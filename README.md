@@ -84,3 +84,11 @@ Exploring other LLMs to enhance accuracy and efficiency.
 ## Conclusion
 
 This recommendation system provides a quick and easy way to find similar movies. With the potential to integrate more advanced features and datasets, this system can be further enhanced to suit various user needs.
+
+## Github Link 
+
+https://github.com/shashankks0709/MovieConnect
+
+## Video:
+
+https://drive.google.com/file/d/14___Tsl6Kyufcgl2H_sfHuDZwQD4ZAnr/view?usp=sharing
