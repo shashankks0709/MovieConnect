@@ -3,7 +3,6 @@
 MovieConnect is a movie recommendation system developed using the PALM2 Large Language Model (LLM) and deployed using Streamlit. 
 This innovative system leverages advanced machine learning techniques to analyze user preferences and historical viewing data, delivering personalized movie recommendations.
 
-## Model Flow:
 
 <img width="774" alt="Screenshot 2023-12-04 at 4 59 47 PM" src="https://github.com/shashankks0709/MovieConnect/assets/71184502/c2fba68c-233c-42c3-abf5-fc57179cb1bc">
 
