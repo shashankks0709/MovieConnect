@@ -8,6 +8,13 @@ tmdb_5000_credits.csv : https://drive.google.com/file/d/1C7aTg8tU9KHMVm5yIA0Gn3n
 
 tmdb_5000_movies.csv : https://drive.google.com/file/d/14stHfhXpZ8dBQgX4JWCcrbrhbpD1d-ym/view?usp=sharing
 
+## Python libraries:
+os
+google.generativeai (You need an API key for this)
+ipywidgets
+pandas
+IPython
+
 ## Development Process
 Using PALM2 LLM
 Model Selection: The project utilizes the PALM2 LLM for its robust natural language processing capabilities.
@@ -15,6 +22,32 @@ Model Selection: The project utilizes the PALM2 LLM for its robust natural langu
 Data Processing: We collected, cleaned, and normalized data to suit the needs of the PALM2 model.
 
 Recommendation Logic: The system applies collaborative filtering or content-based filtering techniques to generate tailored recommendations.
+
+## Setup
+
+Set your PALM API key: You can either set it as an environment variable or directly in the code.
+
+python Copy code: PALM_API_KEY = os.getenv("PALM_API_KEY", "YOUR_API_KEY_HERE")
+
+Load the movie dataset
+
+Create an instance of the Recommend_movies class.
+
+Use the generate method to get movie recommendations.
+
+The interface uses IPython widgets for a simple GUI where users can input a movie name and get recommendations.
+Workflow
+
+The Recommend_movies class configures the generative AI model with the specified parameters.
+Upon providing a movie name and pressing the button, the model takes a sample prompt with movie names and their corresponding recommendations.
+Based on this prompt, the model tries to predict recommendations for the input movie.
+The generated recommendations are then cross-referenced with the dataset to ensure they are valid.
+The results are displayed using IPython.
+
+### Note
+
+The safety_settings in the Recommend_movies class aims to prevent any inappropriate or harmful content from being generated.
+If the movie name is not found, the system will prompt the user to try a different name.
 
 ## User Interface with Streamlit
 Streamlit Integration: The user interface is built and managed using Streamlit, ensuring a user-friendly experience.
@@ -39,3 +72,7 @@ Extending the application to mobile devices for wider reach and convenience.
 
 Exploring other LLMs to enhance accuracy and efficiency.
 
+
+## Conclusion
+
+This recommendation system provides a quick and easy way to find similar movies. With the potential to integrate more advanced features and datasets, this system can be further enhanced to suit various user needs.
