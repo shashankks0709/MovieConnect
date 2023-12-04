@@ -50,10 +50,6 @@ Based on this prompt, the model tries to predict recommendations for the input m
 The generated recommendations are then cross-referenced with the dataset to ensure they are valid.
 The results are displayed using IPython.
 
-### Note
-
-The safety_settings in the Recommend_movies class aims to prevent any inappropriate or harmful content from being generated.
-If the movie name is not found, the system will prompt the user to try a different name.
 
 ## User Interface with Streamlit
 Streamlit Integration: The user interface is built and managed using Streamlit, ensuring a user-friendly experience.
