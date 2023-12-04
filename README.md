@@ -10,10 +10,16 @@ tmdb_5000_movies.csv : https://drive.google.com/file/d/14stHfhXpZ8dBQgX4JWCcrbrh
 
 ## Python libraries:
 os
+
 google.generativeai (You need an API key for this)
+
 ipywidgets
+
 pandas
+
 IPython
+
+streamlit 
 
 ## Development Process
 Using PALM2 LLM
