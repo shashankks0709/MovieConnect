@@ -32,6 +32,8 @@ Data Processing: We collected, cleaned, and normalized data to suit the needs of
 
 Recommendation Logic: The system applies collaborative filtering or content-based filtering techniques to generate tailored recommendations.
 
+<img width="770" alt="Screenshot 2023-12-04 at 5 01 26 PM" src="https://github.com/shashankks0709/MovieConnect/assets/71184502/1b596891-454a-4abd-8d43-dd71758dbc2e">
+
 ## Setup
 
 Set your PALM API key: You can either set it as an environment variable or directly in the code.
